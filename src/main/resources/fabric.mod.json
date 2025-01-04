@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "travelers_chest",
+  "version": "${version}",
+  "name": "TravelersChest",
+  "description": "Allows admin to manage chest refills.",
+  "authors": [
+    "gbti-network"
+  ],
+  "contributors": [
+    "DrarkaDev",
+    "atwellpub"
+  ],
+  "contact": {
+    "homepage": "https://gbti.network/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/travelers_chest/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "com.gbti.travelerschest.TravelersChest"
+    ]
+  },
+  "mixins": [
+    "travelers_chest.mixins.json",
+    {
+      "config": "travelers_chest.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  },
+  "custom": {
+    "preview_files": [
+      "preview/index.html",
+      "preview/styles.css",
+      "preview/preview.js"
+    ]
+  }
+}

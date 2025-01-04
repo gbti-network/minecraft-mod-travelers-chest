@@ -1,0 +1,12 @@
+{
+  "name": "minecraft-mod-travelers-chest",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "release": "node scripts/release.js",
+    "build": "node scripts/build.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
