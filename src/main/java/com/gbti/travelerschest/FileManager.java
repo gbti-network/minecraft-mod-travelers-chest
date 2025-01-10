@@ -112,7 +112,7 @@ public class FileManager {
             directory.mkdir();
 
             // Config file
-            File configFile = new File("config/travelerstest/travelers_chest_config.txt");
+            File configFile = new File("config/travelers-chest/travelers_chest_config.txt");
             if(configFile.createNewFile()) {
                 BufferedWriter writer = new BufferedWriter(new FileWriter(configFile));
                 writer.write("debug_logging=false");
