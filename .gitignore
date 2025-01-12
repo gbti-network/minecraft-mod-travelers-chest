@@ -42,8 +42,5 @@ replay_*.log
 scripts/.env
 node_modules/
 package-lock.json
-.product/assets/Icons/travelers_chest_concept_0.psd
-scripts/
-.product/assets/Movies/travelers_chest_mov.mp4
-.product/assets/Movies/travelers-chest-animated.gif
-.product/assets/Movies/quick-demo.wfp
+.product/assets/
+.product/assets/
