@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.2.4]
+## [1.2.5]
 
 - Preparing initial Mondrinth release.
 - Adding product assets for GBTI Network.

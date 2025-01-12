@@ -42,5 +42,6 @@ replay_*.log
 scripts/.env
 node_modules/
 package-lock.json
-.product/assets/Icons/travelers_chest_concept_0.psd
-scripts/
+.product/assets/
+travelers-chest-*.jar
+.env
