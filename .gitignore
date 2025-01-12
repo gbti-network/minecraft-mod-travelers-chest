@@ -43,4 +43,5 @@ scripts/.env
 node_modules/
 package-lock.json
 .product/assets/
-.product/assets/
+travelers-chest-*.jar
+.env

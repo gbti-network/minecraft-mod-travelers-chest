@@ -104,7 +104,7 @@ export function manageProjectJars(jarPath) {
     // Delete existing jar files in project root
     const files = fs.readdirSync(PROJECT_ROOT);
     for (const file of files) {
-        if (file.startsWith('travelers-journal') && file.endsWith('.jar')) {
+        if (file.startsWith('travelers-chest') && file.endsWith('.jar')) {
             const filePath = path.join(PROJECT_ROOT, file);
             fs.unlinkSync(filePath);
             console.log(`   Deleted: ${file}`);
