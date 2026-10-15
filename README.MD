@@ -90,7 +90,6 @@ Example:
 To support the development of Traveler's Chest, please join the [GBTI Network](https://gbti.network/) for access to:
 - 🚀 Exclusive tools and resources
 - 🛠️ Development support
-- 🎮 Private Minecraft Server
 
 ### Other Ways to Contribute
 
